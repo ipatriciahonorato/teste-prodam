@@ -1,0 +1,39 @@
+@model IEnumerable<NotificacoesApp.Models.Notificacao>
+
+@{
+    ViewBag.Title = "Lista de Notificações";
+}
+
+<h1>Notificações</h1>
+
+<form method="get">
+    Tipo: <input type="text" name="filtroTipo" />
+    Gravidade: <input type="text" name="filtroGravidade" />
+    <button type="submit">Filtrar</button>
+</form>
+
+<p><a href="/Notificacao/Create">Criar nova Notificação</a></p>
+
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Id</th>
+        <th>Tipo</th>
+        <th>Gravidade</th>
+        <th>Data Recebimento</th>
+        <th>Ações</th>
+    </tr>
+
+    @foreach (var notificacao in Model)
+    {
+        <tr>
+            <td>@notificacao.Id</td>
+            <td>@notificacao.Tipo</td>
+            <td>@notificacao.Gravidade</td>
+            <td>@notificacao.DataRecebimento</td>
+            <td>
+                <a href="/Notificacao/Edit/@notificacao.Id">Editar</a> |
+                <a href="/Notificacao/Delete/@notificacao.Id">Deletar</a>
+            </td>
+        </tr>
+    }
+</table>

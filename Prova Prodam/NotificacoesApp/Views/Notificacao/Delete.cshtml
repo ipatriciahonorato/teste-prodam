@@ -1,0 +1,13 @@
+@model NotificacoesApp.Models.Notificacao
+
+<h1>Deletar Notificação</h1>
+
+<p>Tem certeza de que deseja deletar esta notificação?</p>
+<p>Tipo: @Model.Tipo</p>
+<p>Gravidade: @Model.Gravidade</p>
+
+<form method="post">
+    <button type="submit">Deletar</button>
+    <a href="/Notificacao">Voltar</a>
+</form>
+

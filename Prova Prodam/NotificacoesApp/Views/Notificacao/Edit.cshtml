@@ -1,0 +1,15 @@
+@model NotificacoesApp.Models.Notificacao
+
+<h1>Editar Notificação</h1>
+
+<form method="post">
+    <label for="Tipo">Tipo:</label>
+    <input type="text" id="Tipo" name="Tipo" value="@Model.Tipo" />
+
+    <label for="Gravidade">Gravidade:</label>
+    <input type="text" id="Gravidade" name="Gravidade" value="@Model.Gravidade" />
+
+    <button type="submit">Salvar</button>
+    <a href="/Notificacao">Voltar</a>
+</form>
+
