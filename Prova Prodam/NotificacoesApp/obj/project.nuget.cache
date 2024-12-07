@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "88otA52kT14=",
+  "dgSpecHash": "8JKUE1jPEhQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Inteli\\Documents\\GitHub\\Prova Prodam\\NotificacoesApp\\NotificacoesApp.csproj",
+  "projectFilePath": "C:\\Users\\Inteli\\Documents\\GitHub\\teste-prodam\\Prova Prodam\\NotificacoesApp\\NotificacoesApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Inteli\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Inteli\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

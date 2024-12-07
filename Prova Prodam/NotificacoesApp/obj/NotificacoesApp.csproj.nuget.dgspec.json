@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Inteli\\Documents\\GitHub\\Prova Prodam\\NotificacoesApp\\NotificacoesApp.csproj": {}
+    "C:\\Users\\Inteli\\Documents\\GitHub\\teste-prodam\\Prova Prodam\\NotificacoesApp\\NotificacoesApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Inteli\\Documents\\GitHub\\Prova Prodam\\NotificacoesApp\\NotificacoesApp.csproj": {
+    "C:\\Users\\Inteli\\Documents\\GitHub\\teste-prodam\\Prova Prodam\\NotificacoesApp\\NotificacoesApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Inteli\\Documents\\GitHub\\Prova Prodam\\NotificacoesApp\\NotificacoesApp.csproj",
+        "projectUniqueName": "C:\\Users\\Inteli\\Documents\\GitHub\\teste-prodam\\Prova Prodam\\NotificacoesApp\\NotificacoesApp.csproj",
         "projectName": "NotificacoesApp",
-        "projectPath": "C:\\Users\\Inteli\\Documents\\GitHub\\Prova Prodam\\NotificacoesApp\\NotificacoesApp.csproj",
+        "projectPath": "C:\\Users\\Inteli\\Documents\\GitHub\\teste-prodam\\Prova Prodam\\NotificacoesApp\\NotificacoesApp.csproj",
         "packagesPath": "C:\\Users\\Inteli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Inteli\\Documents\\GitHub\\Prova Prodam\\NotificacoesApp\\obj\\",
+        "outputPath": "C:\\Users\\Inteli\\Documents\\GitHub\\teste-prodam\\Prova Prodam\\NotificacoesApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Inteli\\AppData\\Roaming\\NuGet\\NuGet.Config"
